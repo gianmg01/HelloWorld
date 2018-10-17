@@ -6,5 +6,5 @@ counter = len(word) - 1
 for x in word:
     new_word += word[counter]
     counter -= 1
-
+#User enters a string
 print("the word you entered backwards is:  ", new_word)
