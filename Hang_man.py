@@ -97,7 +97,7 @@ while game == 1:
         if play_again == "n":
             break
     elif guess > 0:
-        print ("You got the word! would you like to try again? (y/n)")
+        print ("You got the word! would you like to play again? (y/n)")
         play_again = str(raw_input(""))
 
         if play_again == "n":
