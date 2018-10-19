@@ -13,7 +13,20 @@ words = ("die hard",
          "mad max: fury road",
          "casino royale",
          "pirates of the caribbean: the curse of the black pearl",
-         "harry potter and the chamber of secrets")
+         "harry potter and the chamber of secrets",
+         "frozen",
+         "titanic",
+         "inglorious bastards",
+         "saving private ryan",
+         "wall e",
+         "django unchained",
+         "star wars: the empire strikes back",
+         "the dark knight"
+         "the martian",
+         "the revenant",
+         "slumdog millionaire",
+         "the hobbit",
+         "deadpool")
 letters_guessed = ""
 letters_remain = ["a","b","c","d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 letters_remain_2 = ""
@@ -26,7 +39,7 @@ guesses_left = 6
 
 while game == 1:
 
-    word_picked = words[randint(0, 9)]
+    word_picked = words[randint(0, 22)]
 
     counter = 0
 
